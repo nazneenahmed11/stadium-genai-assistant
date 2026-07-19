@@ -1,0 +1,92 @@
+{
+  "venue_name": "Estadio Central (Demo Venue - FIFA World Cup 2026)",
+  "gates": [
+    {
+      "id": "A",
+      "name": "Gate A - North",
+      "description": "Main entrance, nearest to metro station and main parking lot.",
+      "accessible": true,
+      "avg_wait_minutes": 12
+    },
+    {
+      "id": "B",
+      "name": "Gate B - East",
+      "description": "Entrance closest to sections 100-120, near the fan zone.",
+      "accessible": true,
+      "avg_wait_minutes": 8
+    },
+    {
+      "id": "C",
+      "name": "Gate C - South",
+      "description": "Entrance closest to sections 200-220, near VIP parking.",
+      "accessible": false,
+      "avg_wait_minutes": 15
+    },
+    {
+      "id": "D",
+      "name": "Gate D - West",
+      "description": "Entrance closest to sections 300-320, near shuttle drop-off.",
+      "accessible": true,
+      "avg_wait_minutes": 5
+    }
+  ],
+  "restrooms": [
+    {
+      "location": "Near Gate A, Concourse Level 1",
+      "accessible": true,
+      "avg_queue_minutes": 4
+    },
+    {
+      "location": "Near Gate B, Concourse Level 1",
+      "accessible": true,
+      "avg_queue_minutes": 10
+    },
+    {
+      "location": "Near Section 210, Concourse Level 2",
+      "accessible": false,
+      "avg_queue_minutes": 3
+    },
+    {
+      "location": "Near Gate D, Concourse Level 1",
+      "accessible": true,
+      "avg_queue_minutes": 2
+    }
+  ],
+  "transport_options": [
+    {
+      "mode": "Metro",
+      "details": "Green Line to 'Stadium Central' station, 5 min walk to Gate A.",
+      "last_departure_after_match": "23:30"
+    },
+    {
+      "mode": "Shuttle Bus",
+      "details": "Free fan shuttle from Downtown Hub to Gate D, runs every 15 minutes on match days.",
+      "last_departure_after_match": "00:00"
+    },
+    {
+      "mode": "Rideshare Pickup",
+      "details": "Designated rideshare pickup zone near Gate C, VIP parking side.",
+      "last_departure_after_match": "01:00"
+    }
+  ],
+  "accessibility_services": [
+    "Wheelchair-accessible entrances at Gates A, B, and D",
+    "Sensory-friendly quiet room located near Gate B, Concourse Level 1",
+    "Sign language interpreters available at Guest Services desks near every gate",
+    "Accessible seating available in Sections 105, 205, and 305 - contact Guest Services to arrange"
+  ],
+  "faqs": [
+    {
+      "question": "What time do gates open?",
+      "answer": "Gates open 2 hours before kickoff."
+    },
+    {
+      "question": "Is outside food allowed?",
+      "answer": "Outside food and drink are not permitted, except medically necessary items and small snacks for infants."
+    },
+    {
+      "question": "Where is the lost and found?",
+      "answer": "Lost and Found is located at the Guest Services desk near Gate A."
+    }
+  ]
+}
